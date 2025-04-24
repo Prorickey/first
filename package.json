@@ -1,0 +1,27 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "An open-source interface to interact with the FIRST APIs",
+  "homepage": "https://github.com/Prorickey/first#readme",
+  "bugs": {
+    "url": "https://github.com/Prorickey/first/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prorickey/first.git"
+  },
+  "license": "ISC",
+  "author": "Trevor Bedson",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
