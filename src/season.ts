@@ -9,10 +9,10 @@
  * @property {number} IntoTheDeep - 2024 season
  */
 export enum Season {
-    SkyStone = 2019,
-    UltimateGoal = 2020,
-    FreightFrenzy = 2021,
-    PowerPlay = 2022,
-    CenterStage = 2023,
-    IntoTheDeep = 2024,
+	SkyStone = 2019,
+	UltimateGoal = 2020,
+	FreightFrenzy = 2021,
+	PowerPlay = 2022,
+	CenterStage = 2023,
+	IntoTheDeep = 2024
 }

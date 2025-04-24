@@ -5,11 +5,12 @@
  * @returns Authorization token that can be used in the client
  */
 export function createToken(username: string, key: string): string {
-    if (!username || !key) throw new Error("Username and key are required to create a token");
-    return Buffer.from(`${username}:${key}`).toString('base64');
+	if (!username || !key)
+		throw new Error("Username and key are required to create a token")
+	return Buffer.from(`${username}:${key}`).toString("base64")
 }
 
-import { Season } from "./season.js";
-import { FirstFTCAPI } from "./ftc.js";
+import { Season } from "./season.js"
+import { FirstFTCAPI } from "./ftc.js"
 
-export { Season, FirstFTCAPI };
+export { Season, FirstFTCAPI }
