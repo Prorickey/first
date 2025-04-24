@@ -2,7 +2,6 @@
 
 An open-source TypeScript library to interact with the FIRST APIs.
 
-[![npm version](https://img.shields.io/npm/v/first.svg)](https://www.npmjs.com/package/first)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Features
@@ -14,10 +13,6 @@ An open-source TypeScript library to interact with the FIRST APIs.
 - Comprehensive error handling and input validation
 
 ## Installation
-
-```bash
-npm install first
-```
 
 ## Usage
 
